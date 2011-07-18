@@ -70,7 +70,7 @@ class Safe_Domain_Rename_Plugin {
 			 }
 			 return $value;
 		} elseif(  is_string( $value ) ) {
-			$value = str_replace($old_values, $new_values, $value, $count);
+			$value = str_replace($old_values, $new_values, $value);
 			return $value;
 		} else {
 			return $value;
